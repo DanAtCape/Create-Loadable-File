@@ -1,19 +1,3 @@
-# Creating A Loadable File for Bonsai Brain 
-To train a Bonsai brain with VP Link, a loadable file must be generated. This loadable file is a ZIP file with files VP Link needs to run a simulation. Below are steps describing how to create a loadable ZIP file.  
-If you already have a loadable file, see docco for [Creating Bonsai Brain](/Create Bonsai Brain.md)
-
-**1.) Access VP Link via Azure**  
-_<More goes here>_
-
-Once on the machine, start VP Link using the VP3 Control Panel shortcut:  
-
-![VP3 Shortcut](/images/Capetest_VP3ControlPanelShortcut.png)  
-
-Load the VP Link tag database for the simulation to be used on the Bonsai Brain. 
-
-
-
-
 # Create and Run a Bonsai Brain
 
 **1.) Log into Bonsai**  
@@ -41,4 +25,3 @@ On the Bonsai page, click the **+ Add sim** next to **Simulators**
 On the popup window, click **VP Link**   
 
 ![Add Sim VPLink](/images/BonsaiBrain_AddSimVPLink.png)  
-
