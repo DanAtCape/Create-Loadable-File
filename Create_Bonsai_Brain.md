@@ -1,5 +1,5 @@
 # Creating and Running a Bonsai Brain
-A lodable file is reuired to run a Bonsai Brain. If you don't have a loadable file, see docco for the previous step: [Creating a Loadable File](./Create_Loadable_File.md).<br>
+A lodable file is required to run a Bonsai Brain. If you don't have a loadable file, see docco for the previous step: [Creating a Loadable File](./Create_Loadable_File.md).<br>
 
 **1.) Log into Bonsai**  
 Go to preview.bons.ai (https://preview.bons.ai/accounts/signin)  
