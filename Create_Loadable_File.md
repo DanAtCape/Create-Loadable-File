@@ -34,12 +34,13 @@ Note the *Loadable SubDir:* field next to the button.<br>
 
 ![Loadable SubDir](/images/Capetest_BonsaiTags_LoadableSubDir.png)<br>
 
-This is to use separate folders for each loadable that is created. Using different sub-directories will keep different brain simulations separate. Optionally choose a sub directory name, then click the **Build Bonsai interface** button. If no folder exists with the SubDir name, there will be a couple dialog windows to create the folder.<br>
+This is to use separate folders for each loadable that is created. Using different folders will keep various brain simulations separated. Optionally choose a folder (SubDir) name, then click the **Build Bonsai Interface** button. If no folder exists with the *SubDir* name, there will be a couple dialog windows to validate creating the folder.<br>
+
 *... Is this dialog (TWO dialogs) necessary ...?*<br>
 
 ![Build msg 1](/images/Capetest_BonsaiTags_BuildMsg.png)<br>
 
-Then click the **Create Bonsai Loadable** button. To show the folder where the loadable is located, click the **Show Loadable** button. The *ZIP* file is the loadable needed as input to the Bonsai Brain.<br>
+Then click the **Create Bonsai Loadable** button. To show the folder in Windows Explorer that the loadable is in, click the **Show Loadable** button. The *ZIP* file is the loadable needed as input to the Bonsai Brain.<br>
 
 ![Loadable ZIP folder](/images/Capetest_BonsaiTags_LoadableInFolder.png)<br>
 
