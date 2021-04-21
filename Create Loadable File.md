@@ -16,12 +16,9 @@ Go to the *Bonsai Tags* page:<br>
 
 ![Bonsai Tags page](/images/Capetest_BonsaiTags_SimpleTank.png)<br>
 
-The field on the left is for listing all tags in the current simulation. The top-right field (**State Tags**) is for tags the Brain will try to control, and the bottom-right is for tags the Brain will manipulate in order to control the state tags.
+The field on the left is to list all tags in the current simulation. The top-right field is for tags the Brain will seek to control, and the bottom-right is for tags the Brain will manipulate.
 
-To get tags in the simulation listed in the left field, use the *Search* window in VP Link to select the desired tags, then use the **Actions** -> **Copy Spreadsheet** menu to copy tags in the Search window.<br>
+To get tags in the simulation 
 
-![BCopy Spreadsheet](/images/Capetest_BonsaiTags_CopySpreadsheet.png)<br>
 
-Then click the **Paste Spreadsheet** button above the left field to copy tags to the field.<br>
 
-Once tags are available, select a tag and click the **Add tags to State** or **Add tags to Action** button to place the tag in the appropriate list (state or action).
