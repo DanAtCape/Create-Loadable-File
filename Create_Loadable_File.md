@@ -3,7 +3,7 @@ To train a Bonsai brain with VP Link, a loadable file must be generated. This lo
 If you already have a loadable file, see docco for the next step: [Creating Bonsai Brain](./Create_Bonsai_Brain.md).<br>
 
 **1.) Access VP Link via Azure**<br>
-_More goes here_
+*... More goes here - how to access VM ...*
 
 Once on the machine, start VP Link using the VP3 Control Panel shortcut:<br>
 
@@ -12,16 +12,34 @@ Once on the machine, start VP Link using the VP3 Control Panel shortcut:<br>
 Open the Livecode stack that has the *Bonsai Tags* page (e.g., SimpleTank.rev).<br>
 Load the VP Link tag database for the simulation to be used on the Bonsai Brain.<br>
 
+**2.) Select Tags For The Brain**
+
 Go to the *Bonsai Tags* page:<br>
 
 ![Bonsai Tags page](/images/Capetest_BonsaiTags_SimpleTank.png)<br>
 
-The field on the left is for listing all tags in the current simulation. The top-right field (**State Tags**) is for tags the Brain will try to control, and the bottom-right is for tags the Brain will manipulate in order to control the state tags.
+The *selection* field on the left is for listing tags in the current simulation that will selected to use for the brain. The top-right field is for tags the Brain will try to control (**State Tags**), and the bottom-right is for tags the Brain will manipulate in order to control the state tags (**Action Tags**).
 
 To get tags in the simulation listed in the left field, use the *Search* window in VP Link to select the desired tags, then use the **Actions** -> **Copy Spreadsheet** menu to copy tags in the Search window.<br>
 
-![BCopy Spreadsheet](/images/Capetest_BonsaiTags_CopySpreadsheet.png)<br>
+![Copy Spreadsheet](/images/Capetest_BonsaiTags_CopySpreadsheet.png)<br>
 
-Then click the **Paste Spreadsheet** button above the left field to copy tags to the field.<br>
+Then click the **Paste Spreadsheet** button on the *Bonsai Tags* page (see screenshot above) to copy tags to the selection field.<br>
 
-Once tags are available, select a tag and click the **Add tags to State** or **Add tags to Action** button to place the tag in the appropriate list (state or action).
+Once tags are available, select a tag and click the **Add tags to State** or **Add tags to Action** button to place the tag in the appropriate list (state or action).<br>
+
+**3.) Build Bonsai Interface**
+Note the *Loadable SubDir:* field next to the button.<br>
+
+![Loadable SubDir](/images/Capetest_BonsaiTags_LoadableSubDir.png)<br>
+
+This is to use separate folders for each loadable that is created. Using different sub-directories will keep different brain simulations separate. Optionally choose a sub directory name, then click the **Build Bonsai interface** button. If no folder exists with the SubDir name, there will be a couple dialog windows to create the folder.<br>
+*... Is this dialog (TWO dialogs) necessary ...?*<br>
+
+![Build msg 1](/images/Capetest_BonsaiTags_BuildMsg1.png)<br>
+![Build msg 2](/images/Capetest_BonsaiTags_BuildMsg1.png)<br>
+
+Then click the **Create Bonsai Loadable** button. To show the folder where the loadable is located, click the **Show Loadable** button. The *ZIP* file is the loadable needed as input to the Bonsai Brain.<br>
+
+![Loadable ZIP folder](/images/Capetest_BonsaiTags_LoadableInFolder.png)<br>
+
