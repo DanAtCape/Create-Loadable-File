@@ -3,7 +3,7 @@ To train a Bonsai brain with VP Link, a loadable file must be generated. This lo
 If you already have a loadable file, see docco for the next step: [Creating Bonsai Brain](./Create_Bonsai_Brain.md).<br>
 
 **1.) Access VP Link via Azure**<br>
-_<More goes here>_
+_More goes here_
 
 Once on the machine, start VP Link using the VP3 Control Panel shortcut:<br>
 
