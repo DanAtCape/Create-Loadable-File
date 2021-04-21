@@ -9,10 +9,9 @@ Once on the machine, start VP Link using the VP3 Control Panel shortcut:<br>
 
 ![VP3 Shortcut](/images/Capetest_VP3ControlPanelShortcut.png)<br>
 
-Open the Livecode stack that has the *Bonsai Tags* page (e.g., SimpleTank.rev).<br>
-Load the VP Link tag database for the simulation to be used on the Bonsai Brain.<br>
+Open the Livecode stack that has the *Bonsai Tags* page (e.g., SimpleTank.rev). Then load the VP Link tag database for the simulation to be used on the Bonsai Brain.<br>
 
-**2.) Select Tags For The Brain**
+**2.) Select Tags For The Brain**<br>
 
 Go to the *Bonsai Tags* page:<br>
 
@@ -28,7 +27,7 @@ Then click the **Paste Spreadsheet** button on the *Bonsai Tags* page (see scree
 
 Once tags are available, select a tag and click the **Add tags to State** or **Add tags to Action** button to place the tag in the appropriate list (state or action).<br>
 
-**3.) Build Bonsai Interface**
+**3.) Build Bonsai Interface**<br>
 Note the *Loadable SubDir:* field next to the button.<br>
 
 ![Loadable SubDir](/images/Capetest_BonsaiTags_LoadableSubDir.png)<br>
@@ -36,8 +35,7 @@ Note the *Loadable SubDir:* field next to the button.<br>
 This is to use separate folders for each loadable that is created. Using different sub-directories will keep different brain simulations separate. Optionally choose a sub directory name, then click the **Build Bonsai interface** button. If no folder exists with the SubDir name, there will be a couple dialog windows to create the folder.<br>
 *... Is this dialog (TWO dialogs) necessary ...?*<br>
 
-![Build msg 1](/images/Capetest_BonsaiTags_BuildMsg1.png)<br>
-![Build msg 2](/images/Capetest_BonsaiTags_BuildMsg1.png)<br>
+![Build msg 1](/images/Capetest_BonsaiTags_BuildMsg.png)<br>
 
 Then click the **Create Bonsai Loadable** button. To show the folder where the loadable is located, click the **Show Loadable** button. The *ZIP* file is the loadable needed as input to the Bonsai Brain.<br>
 
