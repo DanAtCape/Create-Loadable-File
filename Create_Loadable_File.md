@@ -10,7 +10,7 @@ Once on the machine, start VP Link using the VP3 Control Panel shortcut:<br>
 
 ![VP3 Shortcut](/images/Capetest_VP3ControlPanelShortcut.png)<br>
 
-Open the Livecode stack that has the *Bonsai Tags* page (e.g., SimpleTank.rev). Then load the VP Link tag database for the simulation to be used on the Bonsai Brain.<br>
+Open the Livecode stack that has the *Bonsai Tags* page (*e.g.*, SimpleTank.rev). Then load the VP Link tag database for the simulation to be used on the Bonsai Brain.<br>
 
 **2.) Select Tags For The Brain**<br>
 
